@@ -1,0 +1,80 @@
+.hero{
+    height: 34vw;
+    width: 90%; /* Adjust the width as needed */
+    margin: 50px auto 0; /* Top margin of 50px */
+    background: url('https://ca.jbl.com/on/demandware.static/-/Sites-JB-CA-Library/default/dw986fd48a/products/charge5/JBL_Charge5_NPI_Home_2800x970.jpg') no-repeat;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+
+    
+    
+    }
+    .hero-content{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5vw;
+        max-width: 50%;
+        bottom: 10%;
+        left: 6vw;
+        animation: fadein 3s;
+    
+    }
+    
+    .hero-content h2{
+      
+        font-weight: 500;
+        color: white;
+        font-size: max(4.5vw, 22px) ;
+        line-height: 75px;
+    } 
+    
+ 
+    
+
+
+    .hero-content button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff; /* White */
+        color: #1e40af; /* Blue-600 */
+        font-weight: bold;
+        padding: 0.75rem 2rem;
+        border-radius: 9999px;
+        transition: background-color 0.3s ease-in-out;
+        cursor: pointer;
+        border: none;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .hero-content button:hover {
+        background-color: #eaf0ff; /* Gray-100 */
+      }
+      
+
+      
+.aboutus-cta-icon {
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Animation for the icon */
+  .hero-content button:hover .aboutus-cta-icon {
+    transform: translateX(8px);
+  }
+  
+    
+    @keyframes fadein {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }

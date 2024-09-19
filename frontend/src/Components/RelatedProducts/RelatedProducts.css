@@ -1,0 +1,123 @@
+.related-title {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.main{
+    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+
+.related-products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap:30px;
+    row-gap: 50px;
+}
+
+.product-item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+.product-item-image{
+    width: 75%; /* Adjust this percentage or use a fixed width as needed */
+    border-radius: 15px 15px 0px 0px;
+    display: block; /* This makes the image a block-level element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.product-item-info{
+    padding:20px ;
+}
+.product-item-name-rating{
+     /* display: flex;   */
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-item-name-rating p{
+    font-size: 20x;
+    font-weight: 600;
+}
+
+.product-item-name-rating img{
+    width: 70px;
+}
+
+.product-item-price{
+    font-size: 22px;
+    color: rgb(26, 5, 52);
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.product-item-img-container{
+    position: relative;
+}
+
+.product-item-img-container .add{
+    font-size: x-large;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.view1-btn {
+    position: absolute;
+    bottom: 1px;
+    right: 80px;
+  background-color: #f8f9fa;
+  border: 1px solid #4d5e6f;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 80px;
+  padding: 0 16px;
+  text-align: center;
+
+
+ 
+  white-space: pre;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.view1-btn:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+
+
+.product-item-img-container {
+    position: relative;
+  }
+  
+  
+  
+  .product-item-img-container:hover .view1-btn {
+    opacity: 1;
+    visibility: visible;
+  }
+  

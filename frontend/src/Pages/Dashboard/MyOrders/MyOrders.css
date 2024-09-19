@@ -1,0 +1,110 @@
+.my-orders {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.my-orders h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  background-color: #f7f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.order-card:hover {
+  border-color: #007bff;
+  transform: translateY(-5px);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.order-number {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.order-status {
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.order-status.pending {
+  background-color: #f0ad4e;
+  color: #fff;
+}
+
+.order-status.completed {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.order-status.cancelled {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.order-body {
+  margin-bottom: 20px;
+}
+
+.order-items {
+  font-size: 1rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.order-amount {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-date {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.track-order-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.track-order-btn:hover {
+  background-color: #0056b3;
+}

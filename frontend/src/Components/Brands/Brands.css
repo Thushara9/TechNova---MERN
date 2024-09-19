@@ -1,0 +1,38 @@
+.card-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    width: 90%; /* Adjust the width as needed */
+    margin: 50px auto 0; /* Top margin of 50px */
+  
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  
+  
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+ .brand{
+  
+  text-align: left;
+   
+  font-family: "Galindo", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  width: 90%;
+  margin: 0 auto;
+  } 
+  

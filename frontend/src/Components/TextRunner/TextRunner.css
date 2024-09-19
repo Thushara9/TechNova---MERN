@@ -1,0 +1,31 @@
+/* src/InfiniteScrollingText.css */
+
+.scrolling-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+    margin-bottom: 2px;
+    
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    animation: scroll 25s linear infinite;
+   font-size: 14px;
+    color: blueviolet;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-20%);
+    }
+  }
+  
+  .scrolling-item {
+    display: inline-block;
+  }
+  

@@ -1,0 +1,129 @@
+.quick-view-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .quick-view-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 1000px; /* Increased width to accommodate side-by-side layout */
+    max-width: 90%;
+    animation: popUp 0.3s ease-in-out;
+    position: relative;
+    display: flex; /* Flexbox to align image and details side by side */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .quick-view-image-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  
+    padding: 40px;
+  }
+  
+  .quick-view-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 50px; /* Space between image and thumbnails */
+  }
+  
+  .quick-view-details {
+    width: 60%; /* Details take 60% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center details vertically */
+  }
+  
+  .quick-view-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .quick-view-price {
+    font-size: 20px;
+    color: #e60023;
+    margin-bottom: 10px;
+  }
+  
+  .quick-view-description {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .close1 {
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes popUp {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+
+.quick-view-thumbnails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail-box {
+  width: 23%; /* Approximately one-fourth of the width */
+  height: 80px; /* Fixed height for the thumbnail box */
+  /* background-color: #f0f0f0;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.thumbnail-box img{
+width: 100%;
+height: 90%;
+}
+
+.quick-view-details button{
+  margin-top: 50px;
+  background: transparent;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: 1px solid mediumslateblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: mediumslateblue;
+    width: 85%;
+}

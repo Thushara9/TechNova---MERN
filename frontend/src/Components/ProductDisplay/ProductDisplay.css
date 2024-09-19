@@ -1,0 +1,22 @@
+.product-display{
+    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.product-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap:30px;
+    row-gap: 50px;
+}
+
+/* .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+} */

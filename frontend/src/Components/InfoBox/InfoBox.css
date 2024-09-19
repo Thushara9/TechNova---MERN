@@ -1,0 +1,31 @@
+.container {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-around;
+}
+
+.box {
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.image {
+   
+    object-fit: contain;
+}
+
+.paragraph {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.info-hr{
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid #b5cccf;
+    margin-bottom: 50px;
+}

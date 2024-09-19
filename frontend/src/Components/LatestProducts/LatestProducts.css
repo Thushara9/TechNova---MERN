@@ -1,0 +1,40 @@
+.product-latest-display {
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.product-latest-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap:30px;
+    row-gap: 50px;
+}
+
+.latest-title h2 {
+  
+    
+    text-align: left;
+   
+    font-family: "Galindo", sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.latest-title{
+    margin-top: 80px;
+}
+
+.latest-hr{
+   
+    width: 90%;
+    margin: 0 auto;
+
+    border: 1px solid #d3e5e8;
+
+}

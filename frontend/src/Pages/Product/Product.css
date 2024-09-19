@@ -1,0 +1,113 @@
+.product-container {
+    padding: 0;
+    max-width: 1200px;
+    margin: 60px auto 0 auto; /* Add 20px margin at the top */
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+   
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    padding: 12px;
+  }
+  
+  
+  .product-image-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 20px;
+    gap: 20px; /* Gap between thumbnails and main image */
+  }
+  
+  .product-thumbnails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thumbnail-box1 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .thumbnail-box1 img {
+    width: 115%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .product-image {
+    flex-grow: 1;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-details {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -70px;
+    text-align: left; /* Ensure all text is aligned to the left */
+  }
+  
+  .product-name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-left: 0; /* Ensure alignment with other text */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .product-price {
+    font-size: 25px;
+    font-weight: 600;
+    color: #e60023;
+    margin-bottom: 10px;
+    margin-left: 0; /* Ensure alignment with other text */
+  }
+  
+  .product-description {
+    font-size: 18px;
+    color: #555;
+    margin-left: 0; /* Ensure alignment with other text */
+  }
+  
+  .add-to-cart-button {
+    margin-top: 40px;
+    background: transparent;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border:none;
+  
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: black;
+    width: 30%;
+  }
+  
+  @media (min-width: 768px) {
+    .product-container {
+      flex-wrap: nowrap;
+    }
+  
+    .product-image-container {
+      width: 40%;
+    }
+  
+    .product-details {
+      width: 60%;
+    }
+  }
+  

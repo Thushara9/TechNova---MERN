@@ -1,0 +1,25 @@
+.app1 {
+
+    text-align: center;
+    margin: 20px;
+    width: 80%;
+
+    margin: auto;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.brandImages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.clientImg {
+    width: 150px; /* Adjust the size as needed */
+    margin: 0 100px; /* Space between images */
+}

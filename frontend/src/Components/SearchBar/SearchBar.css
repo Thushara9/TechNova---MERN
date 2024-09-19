@@ -1,0 +1,19 @@
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 800px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #bfc7c4;
+    font-size: 16px;
+}
+
+.main-search{
+    display: flex;
+}
