@@ -1,0 +1,120 @@
+.orders {
+    padding: 20px;
+    width: 1250px;
+    margin: 0 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .orders h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .order-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .order-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .order-item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+  }
+  
+  .order-id p {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 600;
+  }
+  
+  .order-status span {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  
+  .order-status.processing span {
+    background-color: #f39c12;
+  }
+  
+  .order-status.delivery span {
+    background-color: #3498db;
+  }
+  
+  .order-status.delivered span {
+    background-color: #2ecc71;
+  }
+  
+  .order-item-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order-details {
+    flex: 1;
+  }
+  
+  .order-products {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .order-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #2980b9;
+    margin-bottom: 5px;
+  }
+  
+  .order-address,
+  .order-phone {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  
+  .order-meta {
+    text-align: right;
+  }
+  
+  .order-meta p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .order-status-select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .order-status-select:hover {
+    border-color: #2980b9;
+  }
+  
